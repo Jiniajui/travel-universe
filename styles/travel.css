@@ -46,7 +46,7 @@ body{
     color: #FF5400;
 }
 
-.tarvel-nav-icon{
+.travel-nav-icon{
     display: none;
 }
 .travel-nav ul{
@@ -69,6 +69,147 @@ body{
 .travel-nav ul li a{
     text-decoration: none;
 }
+
+/* Start the why choose css */
+
+.why-choose{
+    width: 1300px;
+    height: 600px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.why-choose-title{
+    text-align: center;
+    margin: 0 auto;
+}
+.why-choose-title h3{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.why-choose-title P{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 auto 30px;
+}
+.why-choose-service{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2,1fr);
+    margin: 0 auto;
+}
+.why-choose-hotel{
+    width: 640px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.why-choose-hotel img{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.why-choose-hotel h5{
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 10px 30px 10px;
+
+}
+.why-choose-hotel p{
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 30px;
+}
+
+.why-choose-class{
+    width: 640px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.why-choose-class img{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.why-choose-class h5{
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 10px 30px 10px;
+}
+.why-choose-class p{
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 30px;
+}
+.why-choose-price{
+    width: 640px;
+    height: 284px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    grid-column: span 3;
+    margin: 0 auto;
+
+}
+.why-choose-price img{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.why-choose-price h5{
+    color: #131318;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin: 10px 30px 10px;
+}
+.why-choose-price p{
+    width: 486px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 30px;
+}
+
+/* End the why choose css */
 
 .travel-nav ul li a:hover{
     color: #FF5400;
