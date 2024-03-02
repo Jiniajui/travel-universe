@@ -1,0 +1,42 @@
+/* mobile devices */
+
+@media screen and (max-width: 600px){
+    .travel-nav-icon{
+        display: block;
+    }
+    .travel-nav-icon i{
+        width: 40px;
+        height: 40px;
+        flex-shrink: 0;
+    }
+    .travel-nav ul{
+        display: none;
+    }
+
+    .travel-banner{
+        width: 335px;
+        height: 483px;
+        flex-shrink: 0;
+        background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .travel-banner-content{
+        background-color: rgba(33, 30, 45, .3);
+        width: 335px;
+        height: 483px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 16px;
+    
+    }
+ }
+
+ /* 
+ tablet or medium devices
+@media screen and (min-width:576px) and (max-width: 960px){
+
+} */
