@@ -1,9 +1,13 @@
 /* mobile devices */
 
 @media screen and (max-width: 600px){
+    /* Common Shared CSS */
     body{
         width: 600px;
     }
+
+    /* Start the header css */
+    /* Start the nav css */
     .travel-nav{
         width: 335px;
         display: flex;
@@ -32,6 +36,9 @@
         display: none;
     }
 
+    /* End the nav css */
+
+    /* Start the banner css */
     .travel-banner{
         width: 335px;
         height: 483px;
@@ -60,6 +67,13 @@
         align-items: center;
         gap: 16px;
     }
+
+    /* End the banner css */
+
+    /* End the header css */
+
+    /* Start the main css */
+    /* Start the popular tours css */
     .popular-tours{
         width: 335px;
         height: 1000px;
@@ -94,6 +108,11 @@
         height: 342px;
         flex-shrink: 0;
     }
+
+    
+    /* End the popular tours css */
+
+    /* Start the travel trip css */
     .travel-trip{
         width: 335px;
         height: 1150px;
@@ -151,6 +170,10 @@
         width: 309px;
         font-size: 14px;
     }
+
+    /* End the travel trip css */
+
+    /* Start the travel destination css */
 
     .travel-destination{
         width: 335px;
@@ -233,6 +256,11 @@
     .travel-bandarban h3{
         font-size: 20px;
     }
+
+    /* End the travel destination css */
+
+
+    /* Start the why choose css */
     .why-choose{
         width: 335px;
         height: 1000px;
@@ -303,6 +331,9 @@
         font-size: 14px;
     }
 
+    /* End the why choose css */
+
+    /* Start the newsletter css */
     .travel-newsletter{
         width: 335px;
         height: 800px;
@@ -365,7 +396,11 @@
         font-size: 15px;
         padding-top: 10px;
     }
+    /* End the newsletter css */
 
+    /* End the main css */
+
+    /* Start the footer css */
     .travel-footer{
         width: 100%;
     }
@@ -373,11 +408,9 @@
         width: 287px;
         font-size: 14px;
     }
+    .travel-footer-line{
+        width: 335px;
+    }
+    /* End the footer css */
 
  }
-
- /* 
- tablet or medium devices
-@media screen and (min-width:576px) and (max-width: 960px){
-
-} */
