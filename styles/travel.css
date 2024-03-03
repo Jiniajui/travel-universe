@@ -304,6 +304,150 @@ body{
 
 /* End the popular tours css */
 
+/* Start the travel trip css */
+
+.travel-trip{
+    width: 1300px;
+    height: 600px;
+    text-align: center;
+    margin: auto;
+}
+.travel-trip-title{
+
+}
+.travel-trip-title h5{
+    font-size: 20px;
+    letter-spacing: 5px;
+    color: #5A5A5D;
+    margin-bottom: 20px;
+}
+.travel-trip-title h3{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 15px;
+}
+.travel-trip-title p{
+    width: 650px;
+    margin: auto;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.travel-trip-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+.travel-trip-what{
+    background: rgba(233, 68, 68, 0.05);
+    width: 420px;
+    height: 300px;
+    border-radius: 16px;
+}
+.travel-trip-what img{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+.travel-trip-what h5{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.travel-trip-what p{
+    width: 370px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px auto;
+}
+.travel-trip-date{
+    background: rgba(233, 68, 68, 0.05);
+    width: 420px;
+    height: 300px;
+    border-radius: 16px;
+}
+.travel-trip-date img{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+.travel-trip-date h5{
+    color: #131318;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.travel-trip-date p{
+    width: 370px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px auto;
+}
+.travel-trip-recommendation{
+    background: rgba(233, 68, 68, 0.05);
+    width: 420px;
+    height: 300px;
+    border-radius: 16px;
+}
+.travel-trip-recommendation img{
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+}
+.travel-trip-recommendation h5{
+    color: #131318;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.travel-trip-recommendation p{
+    width: 370px;
+    color: #5A5A5D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px auto;
+}
+.travel-trip button{
+    width: 280px;
+    height: 52px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+/* End the travel trip css */
+
 /* Start the travel destination css */
 
 .travel-destination{
@@ -756,6 +900,9 @@ body{
     height: 422px;
     flex-shrink: 0;
 }
+.travel-newsletter-img img{
+    
+}
 .travel-newsletter70{
     width: 250px;
     height: 110px;
@@ -770,7 +917,7 @@ body{
 .travel-newsletter70 p{
     color: #FFF;
     text-align: center;
-    font-size: 24px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -781,13 +928,86 @@ body{
 .travel-newsletter70 h5{
     transform: rotate(-2deg);
     color: #FFF;
-    font-size: 20px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
     text-align: center;
 }
 /* End the newsletter css */
+
+/* Start the footer css */
+
+.travel-footer{
+    background: rgba(19, 19, 24, 0.05);
+    width: 1520px;
+    height: 502px;
+    flex-shrink: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo img{
+    margin-top: 120px;
+    width: 48px;
+    height: 56.008px;
+    flex-shrink: 0;
+}
+.footer-logo h3{
+    margin-top: 120px;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: #131318;
+}
+.footer-description{
+    width: 730px;
+    color: #5A5A5D;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: auto;
+}
+.footer-social-icons{
+    margin-top: 30px;
+}
+.footer-social-icons a i{
+    color: #131318;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    font-size: 25px;
+}
+.travel-footer-line{
+    background: rgba(19, 19, 24, 0.10);
+    width: 872px;
+    height: 1px;
+    text-align: center;
+    margin: 40px auto;
+}
+.footer-reserved{
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+/* End the footer css */
+
+
+
 
 
 

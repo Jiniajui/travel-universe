@@ -1,6 +1,24 @@
 /* mobile devices */
 
 @media screen and (max-width: 600px){
+    body{
+        width: 600px;
+    }
+    .travel-nav{
+        width: 335px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px auto;
+    }
+    .travel-title img{
+        width: 28.724px;
+        height: 33.516px;
+        flex-shrink: 0;
+    }
+    .travel-title h3{
+        font-size: 21px;
+    }
     .travel-nav-icon{
         display: block;
     }
@@ -8,6 +26,7 @@
         width: 40px;
         height: 40px;
         flex-shrink: 0;
+        padding-top: 30px;
     }
     .travel-nav ul{
         display: none;
@@ -17,22 +36,344 @@
         width: 335px;
         height: 483px;
         flex-shrink: 0;
-        background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
     }
     .travel-banner-content{
-        background-color: rgba(33, 30, 45, .3);
         width: 335px;
         height: 483px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 16px;
-    
     }
+    .travel-banner-title h2{
+        font-size: 22px;
+        padding-top: 10px;
+    }
+    .travel-banner-title p{
+        width: 304px;
+        text-align: center;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .travel-banner-btns{
+        display: flex;
+        flex-direction: column;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    .popular-tours{
+        width: 335px;
+        height: 1000px;
+        flex-direction: column;
+        margin: 50px auto;
+
+    }
+    .popular-tours-list{
+        width: 335px;
+        height: 650px;
+        margin-bottom: 20px;
+    }
+    .popular-tours-list h3{
+        font-size: 20px;
+    }
+    .popular-tours-list p{
+        width: 335px;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+    .popular-tours-list ul li p{
+        width: 335px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .popular-tours-list button{
+        margin-bottom: 20px;
+    }
+    .popular-tours-img img{
+        width: 335px;
+        height: 342px;
+        flex-shrink: 0;
+    }
+    .travel-trip{
+        width: 335px;
+        height: 1150px;
+        margin: auto;
+    }
+    .travel-trip-title h5{
+        font-size: 13px;
+        letter-spacing: 3px;
+    }
+    .travel-trip-title h3{
+        font-size: 20px;
+    }
+    .travel-trip-title p{
+        width: 335px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .travel-trip-content{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .travel-trip-what{
+        width: 335px;
+        height: 280px;
+        flex-shrink: 0;
+    }
+    .travel-trip-what h5{
+        font-size: 20px;
+    }
+    .travel-trip-what p{
+        width: 309px;
+        font-size: 14px;
+    }
+    .travel-trip-date{
+        width: 335px;
+        height: 280px;
+        flex-shrink: 0;
+    }
+    .travel-trip-date h5{
+        font-size: 20px;
+    }
+    .travel-trip-date p{
+        width: 309px;
+        font-size: 14px;
+    }
+    .travel-trip-recommendation{
+        width: 335px;
+        height: 280px;
+        flex-shrink: 0;
+    }
+    .travel-trip-recommendation h5{
+        font-size: 20px;
+    }
+    .travel-trip-recommendation p{
+        width: 309px;
+        font-size: 14px;
+    }
+
+    .travel-destination{
+        width: 335px;
+        margin: 80px auto;
+        
+    }
+    
+    .travel-destination-title h3{
+        font-size: 20px;
+    }
+    .travel-destination-title p{
+        width: 309px;
+        font-size: 14px;
+    }
+    .travel-destination1{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .travel-maldives{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+    }
+    .travel-maldives h3{
+        font-size: 20px;
+    }
+    .travel-indonesia{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+    }
+    .travel-indonesia h3{
+        font-size: 20px;
+    }
+    .travel-destination2{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .travel-srilanka{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+    }
+    .travel-srilanka h3{
+        font-size: 20px;
+    }
+    .travel-north-america{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+    }
+    .travel-north-america h3{
+        font-size: 20px;
+    }
+    .travel-kashmir{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+    }
+    .travel-kashmir h3{
+        font-size: 20px;
+    }
+    .travel-destination3{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .travel-bangladesh{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+    }
+    .travel-bangladesh h3{
+        font-size: 20px;
+    }
+    .travel-bandarban{
+        width: 335px;
+        height: 176px;
+        flex-shrink: 0;
+    }
+    .travel-bandarban h3{
+        font-size: 20px;
+    }
+    .why-choose{
+        width: 335px;
+        height: 1000px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+    .why-choose-title h3{
+        font-size: 20px;
+    }
+    .why-choose-title P{
+        width: 309px;
+        font-size: 14px;
+    }
+    .why-choose-service{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .why-choose-hotel{
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+    }
+    .why-choose-hotel img{
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+    .why-choose-hotel h5{
+        font-size: 20px;
+    }
+    .why-choose-hotel p{
+        width: 271px;
+        font-size: 14px;
+    }
+    .why-choose-class{
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+    }
+    .why-choose-class img{
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+    .why-choose-class h5{
+        font-size: 20px;
+    }
+    .why-choose-class p{
+        width: 271px;
+        font-size: 14px;
+    }
+    .why-choose-price{
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+    }
+    .why-choose-price img{
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+    .why-choose-price h5{
+        font-size: 20px;
+    }
+    .why-choose-price p{
+        width: 271px;
+        font-size: 14px;
+    }
+
+    .travel-newsletter{
+        width: 335px;
+        height: 800px;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+    .travel-newletter-mail{
+        width: 335px;
+        margin-right: 20px;
+    }
+    .travel-newsletter-content{
+        margin: 40px 20px 10px;
+    }
+    .travel-newsletter-content h3{
+        font-size: 20px;
+    }
+    .travel-newsletter-content p{
+        width: 270px;
+        font-size: 14px;
+    }
+    .travel-newsletter-line{
+        width: 288px;
+        margin-left: 12px;
+    }
+    .travel-newsletter-subscribe{
+        margin: 10px 20px 40px;
+    }
+    .travel-newsletter-subscribe input{
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
+        margin-right: 40px;
+    }
+    .btn-subscribe{
+        width: 288px;
+        height: 52px;
+        flex-shrink: 0;
+        margin-right: 40px;
+    }
+    .travel-newsletter-img{
+        width: 335px;
+        height: 300px;
+        flex-shrink: 0;
+    }
+    .travel-newsletter-img img{
+        width: 335px;
+        height: 300px;
+        flex-shrink: 0;
+    }
+    .travel-newsletter70{
+        width: 214px;
+        height: 79px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        position: relative;
+        bottom: 38%;
+        left: 35%;
+    }
+    .travel-newsletter70 p{
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    .travel-footer{
+        width: 100%;
+    }
+    .footer-description{
+        width: 287px;
+        font-size: 14px;
+    }
+
  }
 
  /* 
